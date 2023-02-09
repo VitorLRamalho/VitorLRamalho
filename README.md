@@ -28,6 +28,7 @@
 ### Other Knowledge:
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 ![MySQL](https://img.shields.io/badge/-MySQL-0D1117?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
+![WordPress](https://img.shields.io/badge/-WordPress-0D1117?style=for-the-badge&logo=wordpress&labelColor=0D1117)&nbsp;
 
   
 ### Studying in this moment:
