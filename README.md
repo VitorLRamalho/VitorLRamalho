@@ -33,8 +33,8 @@
   
 ### Studying in this moment:
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=for-the-badge&logo=mongoDB&labelColor=0D1117)&nbsp;
-![Moleculer.js](https://img.shields.io/badge/-Moleculer.js-0D1117?style=for-the-badge&logo=moleculer&labelColor=0D1117)&nbsp;
-![Express](https://img.shields.io/badge/-Express-0D1117?style=for-the-badge&logo=express&labelColor=0D1117)&nbsp;
+![React](https://img.shields.io/badge/-React-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
+![Angular](https://img.shields.io/badge/-Angular-0D1117?style=for-the-badge&logo=angular&labelColor=0D1117)&nbsp;
 
   <div align="center">
 <br><p align="centre"><b>Visitors Count</b></p>  
