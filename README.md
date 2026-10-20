@@ -7,8 +7,6 @@
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorLRamalho&layout=compact&hide_border=true&title_color=7FC7D9&text_color=f7f7f7&bg_color=0d1117" />
 </div>
 
- ![Snake animation](https://github.com/VitorLRamalho/VitorLRamalho/blob/output/github-contribution-grid-snake.svg)
-
 <p align="center">
   
 </div>
@@ -29,8 +27,6 @@
 ![iOS](https://img.shields.io/badge/-iOS-0D1117?style=for-the-badge&logo=iOS&labelColor=0D1117)&nbsp;
 ![React](https://img.shields.io/badge/-React-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
   <div align="center">
-<br><p align="centre"><b>Visitors Count</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{VitorLRamalho}/count.svg" /></p> 
 <br></div>
   
 
