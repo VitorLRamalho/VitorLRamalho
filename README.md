@@ -1,33 +1,44 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=7FC7D9&height=120&section=header"/>
+# Vitor Luiz Ramalho
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=7FC7D9&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Vitor+Luiz+Ramalho;I'm+23+years+old;I+from+Brasil,+SP;Be+Welcome!+:%29)](https://git.io/typing-svg)
+Software developer in São Paulo, focused on **DevSecOps and application security**: security controls inside the delivery pipeline, with evidence for every decision.
 
-<div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=VitorLRamalho&show_icons=true&count_private=true&hide_border=true&title_color=7FC7D9&icon_color=7FC7D9&text_color=c9d1d9&bg_color=0d1117" alt="Vitor Luiz Ramalho github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorLRamalho&layout=compact&hide_border=true&title_color=7FC7D9&text_color=f7f7f7&bg_color=0d1117" />
-</div>
+Portuguese native, advanced English. Open to junior AppSec, DevSecOps or security-minded engineering roles.
 
-<p align="center">
-  
-</div>
+## Featured: secure-tasks-api
 
-### Main skills:
-![Swift](https://img.shields.io/badge/-Swift-0D1117?style=for-the-badge&logo=Swift&labelColor=0D1117)&nbsp;
-![React](https://img.shields.io/badge/-React-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
-![Node.JS](https://img.shields.io/badge/-Node.JS-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
+[![DevSecOps Pipeline](https://github.com/VitorLRamalho/secure-tasks-api/actions/workflows/devsecops.yml/badge.svg)](https://github.com/VitorLRamalho/secure-tasks-api/actions/workflows/devsecops.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/VitorLRamalho/secure-tasks-api/badge)](https://scorecard.dev/viewer/?uri=github.com/VitorLRamalho/secure-tasks-api)
 
-### Tools:
-![Xcode](https://img.shields.io/badge/-Xcode-0D1117?style=for-the-badge&logo=Xcode&labelColor=0D1117)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
+A FastAPI service wrapped in a GitHub Actions pipeline that blocks insecure changes before they reach `main`. Built and documented in 13 days.
 
-  
-### Studying in this moment:
-![Swift](https://img.shields.io/badge/-Swift-0D1117?style=for-the-badge&logo=Swift&labelColor=0D1117)&nbsp;
-![iOS](https://img.shields.io/badge/-iOS-0D1117?style=for-the-badge&logo=iOS&labelColor=0D1117)&nbsp;
-![React](https://img.shields.io/badge/-React-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
-  <div align="center">
-<br></div>
-  
+[![Pipeline: four parallel gates, build, image scan, SBOM, authenticated DAST, signed release](https://raw.githubusercontent.com/VitorLRamalho/secure-tasks-api/main/docs/pipeline.png)](https://github.com/VitorLRamalho/secure-tasks-api)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=7FC7D9&height=120&section=footer"/>
+- Four parallel gates on every pull request: Gitleaks, Semgrep + Bandit, pip-audit + Trivy, pytest + hypothesis + atheris fuzzing.
+- Build, image scan, CycloneDX SBOM and authenticated OWASP ZAP scan before `main`; keyless Cosign signature and SBOM attestation on release.
+- Every action pinned to a commit SHA, hash-pinned dependencies, Dependabot with cooldown. OpenSSF Scorecard 7.5.
+- [A pull request with four deliberate flaws](https://github.com/VitorLRamalho/secure-tasks-api/pull/21), blocked by every gate, then fixed one commit at a time.
+- [Findings log](https://github.com/VitorLRamalho/secure-tasks-api/blob/main/docs/findings.md) with 26 recorded decisions and a [STRIDE threat model](https://github.com/VitorLRamalho/secure-tasks-api/blob/main/docs/threat-model.md). README in [English](https://github.com/VitorLRamalho/secure-tasks-api#readme) and [Portuguese](https://github.com/VitorLRamalho/secure-tasks-api/blob/main/README.pt-BR.md).
+
+## How I work
+
+- Evidence over checklists: a control exists when a test, a gate or a log proves it.
+- Every exception has an owner, a reason and a review date.
+- Supply chain is code: pin by digest and commit SHA, verify signatures, read release notes before merging a major.
+
+## Stack
+
+| | |
+| --- | --- |
+| Languages | Python (FastAPI, SQLAlchemy, Pydantic), JavaScript / Node.js, SQL |
+| Security tooling | Semgrep, Bandit, Gitleaks, pip-audit, Trivy, OWASP ZAP, Syft, Cosign / Sigstore, OpenSSF Scorecard |
+| Delivery | GitHub Actions, Docker (multi-stage, non-root, digest-pinned), Dependabot, branch rulesets |
+| Testing | pytest, hypothesis, atheris, coverage gates |
+| Methods | STRIDE threat modeling, OWASP Top 10 and API Top 10, findings logs with review dates |
+
+## Certifications
+
+Cisco Junior Cybersecurity Analyst Career Path (2026) · Cisco Introduction to Cybersecurity · Fortinet NSE 1, 2 and 3 · Fortinet Certified Fundamentals Cybersecurity
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/vitor-luiz-ramalho-193792247/) · vitorlramalho@gmail.com · São Paulo, Brazil
